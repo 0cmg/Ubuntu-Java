@@ -1,5 +1,5 @@
 # 在Ubuntu上搭建Java开发环境
-本文将介绍在Linux的发行版本Ubuntu上搭建java环境 及部署java  web项目。作为个人的学习总结，方便今后复习查看。  
+&emsp;&emsp;本文将介绍在Linux的发行版本Ubuntu上搭建java环境 及部署java  web项目。作为个人的学习总结，方便今后复习查看。  
 - **SSH服务端和客户端安装**
 - **Java环境搭建**
 - **部署Java Web项目**
@@ -14,12 +14,20 @@
 ```
 *ps:* sudo dpkg -i ./ssh/*  中的ssh是SSH安装包的文件夹
 ![Aaron Swartz](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/ls_ssh.png?raw=true)
-在Ubuntu上安装好了SSH的服务端（默认端口22）后就需要在个人电脑上(一般是Windows系统)安装SSH的客户端,在Windows下的SSH客户端软件有很多，比如：
+&emsp;&emsp;在Ubuntu上安装好了SSH的服务端（默认端口22）后就需要在个人电脑上(一般是Windows系统)安装SSH的客户端,在Windows下的SSH客户端软件有很多，比如：
 - **putty：** 在Windows下进行远程登录到Ubuntu系统；
 - **winscp433setup.exe ：** 文件传输工具；
 - **[Xmanager Enterprise ](https://www.netsarang.com/)（个人安装的客户端软件）：** 可以进行远程登录(***通过打开Xshell***)和文件传输(***通过打开Xftp***)![enter image description here](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/xmanager.png?raw=true)
 
-**xshell远程登录连接：**![enter image description here](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/Xshell.png?raw=true)
-**xftp远程文件传输：**（*协议选SFTP*）![enter image description here](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/xftp.png?raw=true)
+&emsp;&emsp;**xshell远程登录连接：**
+
+![enter image description here](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/Xshell.png?raw=true)
+
+&emsp;&emsp;**xftp远程文件传输：**（*协议选SFTP*）
+
+![enter image description here](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/xftp.png?raw=true)
+
 ## Java环境搭建
+
+<img src="https://github.com/HelloJeremy/Ubuntu-Java/blob/master/images/xftp.png?raw=true" width = "300" height = "120" alt="CSDN图标" /> 
 
