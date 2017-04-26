@@ -145,7 +145,8 @@ apt安装mysql (apt-get是在线安装命令)
 	netstat -tap|grep mysql来查看系统是否已经有了mysql服务
 
 **修改MySQL服务器的配置**
-&emsp;&emsp; 1.将字符编码设置为UTF-8
+&emsp;&emsp; 
+1.将字符编码设置为UTF-8
 ```java
 	默认情况下，MySQL的字符集是latin1，因此在存储中文的时候，会出现乱码的情况，所以我们需要把字符集统一改成UTF-8。
 用vi打开MySQL服务器的配置文件my.cnf
@@ -211,11 +212,9 @@ Ctrl+c 是退出tail命令。
 ```
 ## 参考博文
 
+
 [Ubuntu下安装配置和卸载Tomcat](http://zyjustin9.iteye.com/blog/2177291)
-
 [MySQL在Linux Ubuntu中安装](http://blog.fens.me/linux-mysql-install/)
-
 [Ubuntu系统之MySql+sqlyog安装配置教程](http://blog.csdn.net/a854073071/article/details/52117659)
-
 [linux下实时查看tomcat运行日志](http://blog.sina.com.cn/s/blog_4f925fc30100q23f.html)
 
