@@ -14,4 +14,4 @@
 ```
 *ps:* sudo dpkg -i ./ssh/*  中的ssh是SSH安装包的文件夹
 ![Alt text](./QQ图片20170425101216.png)
-更多内容请打开：[在Ubuntu上搭建Java开发环境]()
+更多内容请打开：[在Ubuntu上搭建Java开发环境](https://github.com/HelloJeremy/Ubuntu-Java/blob/master/%E5%9C%A8Ubuntu%E4%B8%8A%E6%90%AD%E5%BB%BAJava%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83.md)
